@@ -1,7 +1,33 @@
-.header{
-body-color:green;
-
-
+body {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin-top: 3rem;
 }
 
+.main {
+  background: lightgray;
+}
 
+.main > a {
+  text-decoration: none;
+}
+
+.main > a:hover {
+  color: red;
+  font-weight: bold;
+}
+
+.atul {
+  background: dodgerblue;
+  color: white;
+}
+
+.atul > a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+.atul > a:hover {
+  color: white;
+  font-weight: bold;
+}
